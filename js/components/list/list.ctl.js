@@ -45,7 +45,7 @@ function listCtl($scope,listSrv,$filter){
 
 // eno of method 1
 
-  $scope.viewby = 5;
+  $scope.viewby = 3;
   $scope.totalItems = $scope.data.length;
   $scope.currentPage = 1;
   $scope.itemsPerPage = $scope.viewby;
